@@ -1,0 +1,11 @@
+
+div#div_perso {
+    /* display: flex; */
+}
+img#perso {
+    top: 70%;
+    position: absolute;
+    width: 100px;
+    left: 10px;
+    /* background-color: brown; */
+}
