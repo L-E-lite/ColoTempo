@@ -3,9 +3,9 @@ div#div_perso {
     /* display: flex; */
 }
 img#perso {
-    top: 70%;
     position: absolute;
     width: 100px;
     left: 10px;
+    bottom: 0px;
     /* background-color: brown; */
 }
