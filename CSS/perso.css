@@ -1,6 +1,8 @@
 
 div#div_perso {
-    /* display: flex; */
+    display: flex;
+    /* position: absolute; */
+    top: 70%;
 }
 img#perso {
     position: absolute;
