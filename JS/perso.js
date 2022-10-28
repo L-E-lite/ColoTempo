@@ -7,7 +7,7 @@
 let perso = document.getElementById('perso');
 let x = 0;
 
-function move_right(event) {
+function move(event) {
     console.log('event.keyCode=' + event.keyCode);
     if (event.keyCode == 39) {
         x += 10;
@@ -20,6 +20,5 @@ function move_right(event) {
 }
 
 
-document.onkeydown = move_right;
-// document.onkeydown = move_left;
+document.onkeydown = move;
 
